@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="BinaryEditor" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/BinaryEditor" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="./" />
+				</Compiler>
+				<Linker>
+					<Add option="-lSDL2" />
+					<Add option="-lSDL2main" />
+					<Add option="-lSDL2_gfx" />
+					<Add option="-lSDL2_ttf" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/BinaryEditor" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="./" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Linker>
+			<Add option="-lSDLmain" />
+			<Add option="-lSDL2" />
+			<Add option="-lSDL2_ttf" />
+		</Linker>
+		<Unit filename="Button.cpp" />
+		<Unit filename="Button.h" />
+		<Unit filename="ChoiseFileMenu.cpp" />
+		<Unit filename="ChoiseFileMenu.h" />
+		<Unit filename="Core.cpp" />
+		<Unit filename="Core.h" />
+		<Unit filename="DialogWindow.cpp" />
+		<Unit filename="DialogWindow.h" />
+		<Unit filename="EditorHelper.cpp" />
+		<Unit filename="EditorHelper.h" />
+		<Unit filename="EditorTools.cpp" />
+		<Unit filename="EditorTools.h" />
+		<Unit filename="GameState.cpp" />
+		<Unit filename="GameState.h" />
+		<Unit filename="Image.cpp" />
+		<Unit filename="Image.h" />
+		<Unit filename="InputDialogWindow.cpp" />
+		<Unit filename="InputDialogWindow.h" />
+		<Unit filename="List.h" />
+		<Unit filename="MainEditor.cpp" />
+		<Unit filename="MainEditor.h" />
+		<Unit filename="MenuManager.cpp" />
+		<Unit filename="MenuManager.h" />
+		<Unit filename="Panel.cpp" />
+		<Unit filename="Panel.h" />
+		<Unit filename="RendererObject.cpp" />
+		<Unit filename="RendererObject.h" />
+		<Unit filename="Scrollbar.cpp" />
+		<Unit filename="Scrollbar.h" />
+		<Unit filename="Text.cpp" />
+		<Unit filename="Text.h" />
+		<Unit filename="TextInput.cpp" />
+		<Unit filename="TextInput.h" />
+		<Unit filename="Texture.cpp" />
+		<Unit filename="Texture.h" />
+		<Unit filename="Window.cpp" />
+		<Unit filename="Window.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

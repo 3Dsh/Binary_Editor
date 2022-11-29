@@ -1,0 +1,315 @@
+# depslib dependency file v1.0
+1576006589 source:/home/artem/Документы/CodeBlocks/BinaryEditor/Button.cpp
+	"Button.h"
+
+1575805766 /home/artem/Документы/CodeBlocks/BinaryEditor/Button.h
+	"RendererObject.h"
+	"Image.h"
+	"Text.h"
+
+1576253474 /home/artem/Документы/CodeBlocks/BinaryEditor/RendererObject.h
+	<SDL2/SDL.h>
+	<SDL2/SDL2_gfxPrimitives.h>
+	<SDL2/SDL_ttf.h>
+	"RendererObject.h"
+
+1575821876 /home/artem/Документы/CodeBlocks/BinaryEditor/Image.h
+	"Texture.h"
+
+1573756864 /home/artem/Документы/CodeBlocks/BinaryEditor/Texture.h
+	"RendererObject.h"
+
+1579105481 /home/artem/Документы/CodeBlocks/BinaryEditor/Text.h
+	"Texture.h"
+	"string"
+
+1579006930 source:/home/artem/Документы/CodeBlocks/BinaryEditor/Core.cpp
+	"Core.h"
+
+1573756842 /home/artem/Документы/CodeBlocks/BinaryEditor/Core.h
+	"Window.h"
+	"MenuManager.h"
+
+1579001443 /home/artem/Документы/CodeBlocks/BinaryEditor/Window.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_ttf.h>
+
+1579099647 /home/artem/Документы/CodeBlocks/BinaryEditor/MenuManager.h
+	"Window.h"
+	"GameState.h"
+	"MainEditor.h"
+	"ChoiseFileMenu.h"
+
+1576353865 source:/home/artem/Документы/CodeBlocks/BinaryEditor/Image.cpp
+	"Image.h"
+
+1579001311 source:/home/artem/Документы/CodeBlocks/BinaryEditor/main.cpp
+	"Core.h"
+
+1579110436 source:/home/artem/Документы/CodeBlocks/BinaryEditor/MenuManager.cpp
+	"MenuManager.h"
+
+1575911699 source:/home/artem/Документы/CodeBlocks/BinaryEditor/RendererObject.cpp
+	"RendererObject.h"
+
+1579105987 source:/home/artem/Документы/CodeBlocks/BinaryEditor/Text.cpp
+	"Text.h"
+	<iostream>
+
+1575911256 source:/home/artem/Документы/CodeBlocks/BinaryEditor/Texture.cpp
+	"Texture.h"
+
+1579099927 source:/home/artem/Документы/CodeBlocks/BinaryEditor/Window.cpp
+	"Window.h"
+
+1579100002 /home/artem/Документы/CodeBlocks/BinaryEditor/GameState.h
+
+1579100105 /home/artem/Документы/CodeBlocks/BinaryEditor/MainEditor.h
+	"Window.h"
+	"EditorTools.h"
+	"Scrollbar.h"
+	"Text.h"
+	"EditorHelper.h"
+
+1579105334 /home/artem/Документы/CodeBlocks/BinaryEditor/EditorTools.h
+	"Window.h"
+	"GameState.h"
+	"Button.h"
+	"Panel.h"
+	"InputDialogWindow.h"
+	<cmath>
+
+1579109955 source:/home/artem/Документы/CodeBlocks/BinaryEditor/EditorTools.cpp
+	"EditorTools.h"
+
+1579006009 source:/home/artem/Документы/CodeBlocks/BinaryEditor/GameState.cpp
+	"GameState.h"
+
+1579110085 source:/home/artem/Документы/CodeBlocks/BinaryEditor/MainEditor.cpp
+	"MainEditor.h"
+
+1579110385 source:/home/artem/Документы/CodeBlocks/BinaryEditor/ChoiseFileMenu.cpp
+	"ChoiseFileMenu.h"
+
+1579110396 /home/artem/Документы/CodeBlocks/BinaryEditor/ChoiseFileMenu.h
+	"Button.h"
+	<string>
+	<stdio.h>
+	"List.h"
+	"GameState.h"
+	"Window.h"
+	<windows.h>
+	<sys/types.h>
+	<dirent.h>
+	<dir.h>
+
+1576007920 /home/artem/Документы/CodeBlocks/BinaryEditor/List.h
+	<cstdlib>
+	<string>
+
+1579103865 /home/artem/Документы/CodeBlocks/BinaryEditor/Scrollbar.h
+	<cmath>
+	"Window.h"
+	"Image.h"
+	"RendererObject.h"
+
+1579023154 source:/home/artem/Документы/CodeBlocks/BinaryEditor/Scrollbar.cpp
+	"Scrollbar.h"
+
+1579102066 source:/home/artem/Документы/CodeBlocks/BinaryEditor/EditorHelper.cpp
+	"EditorHelper.h"
+
+1579032315 /home/artem/Документы/CodeBlocks/BinaryEditor/EditorHelper.h
+	"Window.h"
+	"Text.h"
+
+1575823758 /home/artem/Документы/CodeBlocks/BinaryEditor/Panel.h
+	"Texture.h"
+
+1571515770 source:/home/artem/Документы/CodeBlocks/BinaryEditor/Panel.cpp
+	"Panel.h"
+
+1579096963 /home/artem/Документы/CodeBlocks/BinaryEditor/DialogWindow.h
+	"Window.h"
+	"Button.h"
+	"List.h"
+	"Text.h"
+	"Panel.h"
+
+1579097100 source:/home/artem/Документы/CodeBlocks/BinaryEditor/DialogWindow.cpp
+	"DialogWindow.h"
+
+1579097617 /home/artem/Документы/CodeBlocks/BinaryEditor/InputDialogWindow.h
+	"DialogWindow.h"
+	"TextInput.h"
+
+1574693612 /home/artem/Документы/CodeBlocks/BinaryEditor/TextInput.h
+	<string>
+	"Text.h"
+	"Window.h"
+	<SDL2/SDL.h>
+	<SDL2/SDL_ttf.h>
+
+1579097272 source:/home/artem/Документы/CodeBlocks/BinaryEditor/InputDialogWindow.cpp
+	"InputDialogWindow.h"
+
+1576011345 source:/home/artem/Документы/CodeBlocks/BinaryEditor/TextInput.cpp
+	"TextInput.h"
+
+1576006588 source:/home/namy/Progs/BinaryEditor/Button.cpp
+	"Button.h"
+
+1575805766 /home/namy/Progs/BinaryEditor/Button.h
+	"RendererObject.h"
+	"Image.h"
+	"Text.h"
+
+1576253474 /home/namy/Progs/BinaryEditor/RendererObject.h
+	<SDL2/SDL.h>
+	<SDL2/SDL2_gfxPrimitives.h>
+	<SDL2/SDL_ttf.h>
+	"RendererObject.h"
+
+1575821876 /home/namy/Progs/BinaryEditor/Image.h
+	"Texture.h"
+
+1573756864 /home/namy/Progs/BinaryEditor/Texture.h
+	"RendererObject.h"
+
+1579105480 /home/namy/Progs/BinaryEditor/Text.h
+	"Texture.h"
+	"string"
+
+1579110384 source:/home/namy/Progs/BinaryEditor/ChoiseFileMenu.cpp
+	"ChoiseFileMenu.h"
+
+1579110396 /home/namy/Progs/BinaryEditor/ChoiseFileMenu.h
+	"Button.h"
+	<string>
+	<stdio.h>
+	"List.h"
+	"GameState.h"
+	"Window.h"
+	<windows.h>
+	<sys/types.h>
+	<dirent.h>
+	<dir.h>
+
+1576007920 /home/namy/Progs/BinaryEditor/List.h
+	<cstdlib>
+	<string>
+
+1579100002 /home/namy/Progs/BinaryEditor/GameState.h
+
+1579001442 /home/namy/Progs/BinaryEditor/Window.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_ttf.h>
+
+1579006930 source:/home/namy/Progs/BinaryEditor/Core.cpp
+	"Core.h"
+
+1573756842 /home/namy/Progs/BinaryEditor/Core.h
+	"Window.h"
+	"MenuManager.h"
+
+1579099646 /home/namy/Progs/BinaryEditor/MenuManager.h
+	"Window.h"
+	"GameState.h"
+	"MainEditor.h"
+	"ChoiseFileMenu.h"
+
+1579100104 /home/namy/Progs/BinaryEditor/MainEditor.h
+	"Window.h"
+	"EditorTools.h"
+	"Scrollbar.h"
+	"Text.h"
+	"EditorHelper.h"
+
+1579105334 /home/namy/Progs/BinaryEditor/EditorTools.h
+	"Window.h"
+	"GameState.h"
+	"Button.h"
+	"Panel.h"
+	"InputDialogWindow.h"
+	<cmath>
+
+1575823758 /home/namy/Progs/BinaryEditor/Panel.h
+	"Texture.h"
+
+1579097616 /home/namy/Progs/BinaryEditor/InputDialogWindow.h
+	"DialogWindow.h"
+	"TextInput.h"
+
+1579096962 /home/namy/Progs/BinaryEditor/DialogWindow.h
+	"Window.h"
+	"Button.h"
+	"List.h"
+	"Text.h"
+	"Panel.h"
+
+1574693612 /home/namy/Progs/BinaryEditor/TextInput.h
+	<string>
+	"Text.h"
+	"Window.h"
+	<SDL2/SDL.h>
+	<SDL2/SDL_ttf.h>
+
+1579103864 /home/namy/Progs/BinaryEditor/Scrollbar.h
+	<cmath>
+	"Window.h"
+	"Image.h"
+	"RendererObject.h"
+
+1579032314 /home/namy/Progs/BinaryEditor/EditorHelper.h
+	"Window.h"
+	"Text.h"
+
+1579097100 source:/home/namy/Progs/BinaryEditor/DialogWindow.cpp
+	"DialogWindow.h"
+
+1579102066 source:/home/namy/Progs/BinaryEditor/EditorHelper.cpp
+	"EditorHelper.h"
+
+1579109954 source:/home/namy/Progs/BinaryEditor/EditorTools.cpp
+	"EditorTools.h"
+
+1579006008 source:/home/namy/Progs/BinaryEditor/GameState.cpp
+	"GameState.h"
+
+1576353864 source:/home/namy/Progs/BinaryEditor/Image.cpp
+	"Image.h"
+
+1579097272 source:/home/namy/Progs/BinaryEditor/InputDialogWindow.cpp
+	"InputDialogWindow.h"
+
+1579001310 source:/home/namy/Progs/BinaryEditor/main.cpp
+	"Core.h"
+
+1579110794 source:/home/namy/Progs/BinaryEditor/MainEditor.cpp
+	"MainEditor.h"
+
+1579273532 source:/home/namy/Progs/BinaryEditor/MenuManager.cpp
+	"MenuManager.h"
+
+1571515770 source:/home/namy/Progs/BinaryEditor/Panel.cpp
+	"Panel.h"
+
+1575911698 source:/home/namy/Progs/BinaryEditor/RendererObject.cpp
+	"RendererObject.h"
+
+1579023154 source:/home/namy/Progs/BinaryEditor/Scrollbar.cpp
+	"Scrollbar.h"
+
+1579105986 source:/home/namy/Progs/BinaryEditor/Text.cpp
+	"Text.h"
+	<iostream>
+
+1576011344 source:/home/namy/Progs/BinaryEditor/TextInput.cpp
+	"TextInput.h"
+
+1575911256 source:/home/namy/Progs/BinaryEditor/Texture.cpp
+	"Texture.h"
+
+1579099926 source:/home/namy/Progs/BinaryEditor/Window.cpp
+	"Window.h"
+
